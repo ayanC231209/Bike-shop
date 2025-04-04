@@ -7,7 +7,31 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Bike-shop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clicker+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+<title>Bike-shop</title>
+    <style>
+      *{
+        font-family: "Poppins";
+      }
+      .kom{
+        color:#E76F51
+      }
+      .btnp { 
+        display: flex;
+width: 168px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: #E76F51;
+color: white;
+border:none;
+
+      }
+    </style>
 </head>
 <body>
     <header class="bg-[#264653] text-white">
@@ -64,12 +88,163 @@
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                 quasi. In deleniti eaque aut repudiandae et a id nisi.
               </p>
-              <button class="btn btn-primary">Get Started</button>
+              <button class="btn btnp">Get Started</button>
             </div>
           </div>
         </div>
 
     </header>
-    
+
+    <main>
+
+<!-- ---------------------------FEATURE--------------------------- -->
+
+<section class="md:px-[120px] pt-[56px] lg:px-[220px] pb-[165px] ">
+ 
+  <h3 class="text-5xl text-center font-[600]">Fetured Bikes In This Year</h3>
+  <h3 class="text-center kom font-bold">Best bike collection</h3>
+  
+  <div class="grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-[120px] place-items-center"> 
+
+    <img class="" src="images/others/feature-bike.png" alt="">
+    <img  class="pt-[120px] md:pt-0" src="images/others/feature-bike.png" alt="">
+    <img class="pt-[120px] md:pt-6 lg:pt-0" src="images/others/feature-bike.png" alt="">
+
+  </div>
+</section>
+
+
+<!-- ---------------------------latest-card-------------------------- -->
+
+<section class="pb-[180px]">
+
+<h3 class="text-center text-5xl font-[600]">Latest News</h3>
+
+<div class="pt-[47px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  lg:pb-0">
+  <div class="flex justify-center items-center pb-[20px] lg:pb-0">
+  <div class="card bg-base-100 w-96 shadow-sm px-3 py-3">
+    <figure>
+      <img class=""
+        src="images/others/latest1.png"
+        alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title">Card Title</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div class="card-actions justify-start">
+        <button class="btn bg-[#E76F51] text-white">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ----------------------------------  -->
+<div class="flex justify-center items-center pb-[20px] lg:pb-0">
+  <div class="card bg-base-100 w-96 shadow-sm px-3 py-3 ">
+    <figure>
+      <img
+        src="images/others/latest2.png"
+        alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title">Card Title</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div class="card-actions justify-start">
+        <button class="btn kom border-solid border-[#E76F51]">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -----------  -->
+<div class="flex justify-center items-center">
+  <div class="card bg-base-100 w-96 shadow-sm px-3 py-3">
+    <figure>
+      <img
+        src="images/others/latest3.png"
+        alt="Shoes" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title">Card Title</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div class="card-actions justify-start">
+        <button class="btn kom border-solid border-[#E76F51]">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+</section>
+
+<!-- ----------------------------- review --------------------------  -->
+<section>
+<h3 class="text-black text-5xl font-bold text-center">Happy <span class="text-[#E76F51]">Client Says</span></h3>
+
+<div class="pt-[47px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  lg:pb-0">
+
+  <div class="flex justify-center items-center pb-[20px] lg:pb-0">
+  <div class="card bg-base-100 w-96 shadow-sm">
+    <figure class="px-10 pt-10">
+      <img class="max-w-[149px]"
+        src="images/others/user-1.png"
+        alt="Shoes"
+        class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title">Card Title</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div class="card-actions">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- --------------------------------------  -->
+
+  <div class="flex justify-center items-center pb-[20px] lg:pb-0">
+    <div class="card bg-base-100 w-96 shadow-sm">
+      <figure class="px-10 pt-10">
+        <img class="max-w-[149px]"
+          src="images/others/user-1.png"
+          alt="Shoes"
+          class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Card Title</h2>
+        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------------  -->
+  <div class="flex justify-center items-center pb-[20px] lg:pb-0">
+    <div class="card bg-base-100 w-96 shadow-sm">
+      <figure class="px-10 pt-10">
+        <img class="max-w-[149px]"
+          src="images/others/user-1.png"
+          alt="Shoes"
+          class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Card Title</h2>
+        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------  -->
+
+</div>
+
+
+</section>
+    </main>
+
 </body>
 </html>
